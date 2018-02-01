@@ -33,6 +33,11 @@ body {
   display: block;
   border: 2px;
   border-color: black;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 25px;
+  max-width: 100%;
+  height: auto;
 }
 
 .main img {
@@ -57,4 +62,33 @@ display: block;
   display: table;
   text-align: center;
   background-color: #bbbbbb;
+}
+
+/* MENU STYLING */
+
+.header ul {
+  list-style-type: none;
+  margin:0;
+  padding:0;
+  position: absolute;
+}
+
+.header li {
+  display:inline-block;
+  float: left;
+  margin-right: 1px;
+}
+
+.header li a {
+  display:block;
+  min-width: 140px;
+  height: 34px;
+  text-align: center;
+  line-height: 34px;
+  color: black;
+  background: #2d8aca;
+  text-decoration: none;
+  margin-top: 3px;
+  margin-left: 3px;
+  padding: 0px 5px 0px 5px;
 }
